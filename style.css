@@ -1,0 +1,13 @@
+body {
+    background-color: pink;
+}
+.header {
+    font-size: 80px;
+}
+img {
+    width: 1200px;
+}
+.container {
+    width: 90ww;
+    margin: 0 auto;
+}
