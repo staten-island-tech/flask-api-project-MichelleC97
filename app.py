@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 # Sample movie data
 about_me = [
-    {"Name": "Mich", "Age": "14", "Fav Color": "Pink and Teal"},
-    {"Sibling": "Viv", "Fav Color": "Red"},
+    {"id": "My", "Name": "Mich", "Age": 14, "Fav Color": "Pink and Teal"},
+    {"id": "Sibling", "Sibling": "Viv", "Age": 16, "Fav Color": "Red"}, 
 ]
 
 # Route for the home page

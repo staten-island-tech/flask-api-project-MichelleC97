@@ -5,30 +5,30 @@ body {
 }
 
 h1 {
-    color:rgb(249, 73, 249);
+    color:rgb(80, 247, 233);
 }
 
-.movies {
+.about_me {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.movie {
-    background:teal;
+.about_me img{
+    background:rgb(70, 255, 132);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 button {
-    background-color: #007bff;
-    color:rgb(156, 249, 248);
+    background-color: #e281ff;
+    color:rgb(255, 236, 138);
     border: none;
     padding: 10px 15px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #a1ffa6;
+    background-color: #fa7b90;
 }

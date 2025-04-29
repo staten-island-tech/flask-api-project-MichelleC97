@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 🦄🐅 Michelle 🦄🐅 </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>🦄🐅 Michelle 🦄🐅</h1>
+
+    <div class="about_me">
+        {% for me in about_me %}
+            <div class="about_me">
+                <h2>{{ me.id }}</h2>
+                <p>Information: {{ me.information }}</p>
+                <a href=""><button>Learn Now</button></a>
+            </div>
+        {% endfor %}
+    </div>
+
+</body>
+</html>
