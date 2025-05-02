@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
     <title> 🦄🐅 Michelle 🦄🐅 </title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
@@ -14,22 +13,9 @@
         {% for me in about_me %}
             <div class="about_me">
                 <h2>{{ me.id }}</h2>
-                <p>Information: {{ me.information }}</p>
-                <a href=""><button>Learn Now</button></a>
-=======
-    <title>Movie Ticket Booking</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-</head>
-<body>
-    <h1>🎬 Movie Ticket Booking</h1>
-
-    <div class="movies">
-        {% for movie in movies %}
-            <div class="movie">
-                <h2>{{ movie.title }}</h2>
-                <p>Price: ${{ movie.price }}</p>
-                <a href=""><button>Book Now</button></a>
->>>>>>> dbd9840ac268751dafad087870cb7e881119c66e
+                <p> Information: {{ me.information }}</p>
+                <!-- Link to a dynamic URL using Flask's url_for -->
+                <a href="{{ url_for('learn_page', id=me.id) }}"><button>Learn Now</button></a>
             </div>
         {% endfor %}
     </div>
