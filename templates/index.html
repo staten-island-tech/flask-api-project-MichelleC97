@@ -9,16 +9,30 @@
 <body>
     <h1>🦄🐅 Michelle 🦄🐅</h1>
 
+
+    <div class="UNICORN-images">
+        <div class="UNICORN-img">
+            <img src="https://img.freepik.com/premium-photo/unicorn-forest-with-blue-mane-blue-tail_915071-5391.jpg" alt="UNICORN">
+        </div>
+        <div class="UNICORN_MEME-img">
+            <img src="https://i.imgflip.com/21d89c.jpg" alt="UNICORN MEME" />
+        </div>
+    </div>
+    
     <div class="about_me">
         {% for me in about_me %}
-            <div class="about_me">
-                <h2>{{ me.id }}</h2>
-                <p> Information: {{ me.information }}</p>
-                <!-- Link to a dynamic URL using Flask's url_for -->
-                <a href="{{ url_for('learn_page', id=me.id) }}"><button>Learn Now</button></a>
+            <div class="about_me_box">
+                <div class="unicorn-icon">🦄</div>
+                <h2>{{ me.Title }}</h2>
+                <p>{{ me.Description }}</p>
             </div>
         {% endfor %}
     </div>
-
-</body>
-</html>
+    
+    <!-- Button appears once here, after the loop -->
+    <div class="bottom-button">
+        <a href="https://soraapp.com/shelf/loans" target="_blank">
+            <button>Click ME!!</button>
+        </a>
+    </div>
+    
