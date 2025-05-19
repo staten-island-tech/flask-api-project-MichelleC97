@@ -1,17 +1,66 @@
 from flask import Flask, render_template
+import requests
 
 app = Flask(__name__)
 
-# Sample movie data
-about_me = [
-    {"Title": "Myself", "Description": "I am a freshmen in Highschool. My favorite color is pink and teal. I LOVE the subject math. Summer is my favorite season because my brithday is during that time!"}, 
-    {"Title": "Sibling", "Description": "I have a sister name Viv, she is 2 years older than me. I like to annoy her (A LOT) during my free time. She goes to Susan E. Wagner High School."}, 
-    {"Title": "Hobby", "Description": "I like to play with my family and friends. My favorite sport is Badminton. I don't hate dancing but it's not my favorite as well. I also want to have a dog so badly!!"},
-]
-
 # Route for the home page
-@app.route('/')
-def home():
-    return render_template('index.html', about_me=about_me)
+@app.route("/")
+def index():
+    # We ask the Pokémon API for the first 150 Pokémon.
+    response = requests.get("https://pokeapi.co/api/v2/pokemon?limit=150")
+    data = response.json()
+    pokemon_list = data['results']
+    
+    # We create a list to store details for each Pokémon.
+    pokemons = []
+    
+    for pokemon in pokemon_list:
+        # Each Pokémon has a URL like "https://pokeapi.co/api/v2/pokemon/1/"
+        url = pokemon['url']
+        parts = url.strip("/").split("/")
+        id = parts[-1]  # The last part of the URL is the Pokémon's ID
+        
+        # We use the ID to build an image URL.
+        image_url = f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{id}.png"
+        
+        pokemons.append({
+            'name': pokemon['name'].capitalize(),
+            'id': id,
+            'image': image_url
+        })
+    
+    # We tell Flask to show the 'index.html' page and pass the list of Pokémon.
+    return render_template("index.html", pokemons=pokemons)
 
-app.run(debug=True)
+# Route for the Pokémon details page
+@app.route("/pokemon/<int:id>")
+def pokemon_detail(id):
+    # We get detailed info for a specific Pokémon using its id.
+    response = requests.get(f"https://pokeapi.co/api/v2/pokemon/{id}")
+    data = response.json()
+    
+    # We extract extra details like types, height, weight, and stats.
+    types = [t['type']['name'] for t in data['types']]
+    height = data.get('height')
+    weight = data.get('weight')
+    name = data.get('name').capitalize()
+    image_url = f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{id}.png"
+    
+    # Get the Pokémon’s base stats (like hp, attack, defense, etc.)
+    stat_names = [stat['stat']['name'] for stat in data['stats']]
+    stat_values = [stat['base_stat'] for stat in data['stats']]
+    
+    # We tell Flask to show the 'pokemon.html' page with all these details.
+    return render_template("pokemon.html", pokemon={
+        'name': name,
+        'id': id,
+        'image': image_url,
+        'types': types,
+        'height': height,
+        'weight': weight,
+        'stat_names': stat_names,
+        'stat_values': stat_values
+    })
+
+if __name__ == '__main__':
+    app.run(debug=True)
