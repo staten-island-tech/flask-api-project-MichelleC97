@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>First 150 Pokémon</title>
-    <!-- Link to your CSS stylesheet -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
-  </head>
-  <body>
-    <div class="container">
-      <h1>First 150 Pokémon</h1>
-      <div class="card-container">
-        <!-- Loop through each Pokémon and wrap each card in a link -->
-        {% for pokemon in pokemons %}
-        <a href="{{ url_for('pokemon_detail', id=pokemon.id) }}" class="card-link">
-          <div class="card">
-            <img src="{{ pokemon.image }}" alt="{{ pokemon.name }}" />
-            <div class="card-body">
-              <h5 class="card-title">{{ pokemon.name }}</h5>
-              <p class="card-text">ID: {{ pokemon.id }}</p>
-            </div>
-          </div>
-        </a>
-        {% endfor %}
+<head>
+  <meta charset="UTF-8" />
+  <title>Wizard Spells</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <h1>Wizard Spells</h1>
+<form method="GET" action="/" style="margin-bottom: 30px;">
+  <input type="text" name="q" placeholder="Search spells..." value="{{ search_query or '' }}"
+         style="padding: 10px; width: 250px; border-radius: 6px; border: 1px solid #6a0dad;">
+  <button type="submit"
+          style="padding: 10px 15px; border-radius: 6px; border: none; background-color: #d4af37; color: #2e004f; font-weight: bold;">
+    Search
+  </button>
+</form>
+{% if not spells %}
+  <p>No spells found matching your search.</p>
+{% endif %}
+<div class="card-container">
+    <div class="card-container">
+      {% for spell in spells %}
+  <a href="{{ url_for('spell_detail', id=spell.id) }}" class="card-link">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{ spell.name }}</h5>     <!-- spell name -->
+        <p class="card-text">Type: {{ spell.type }}</p>  <!-- spell type -->
       </div>
     </div>
-  </body>
+  </a>
+{% endfor %}
+
+    </div>
+  </div>
+</body>
 </html>

@@ -1,0 +1,1003 @@
+[
+  {
+    "id": "1",
+    "name": "Expelliarmus",
+    "incantation": "Expelliarmus",
+    "effect": "Disarms your opponent",
+    "type": "Charm",
+    "light": "Red",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "2",
+    "name": "Lumos",
+    "incantation": "Lumos",
+    "effect": "Creates light at wand tip",
+    "type": "Charm",
+    "light": "White",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "3",
+    "name": "Alohomora",
+    "incantation": "Alohomora",
+    "effect": "Unlocks doors and windows",
+    "type": "Charm",
+    "light": "Blue",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "4",
+    "name": "Stupefy",
+    "incantation": "Stupefy",
+    "effect": "Stuns the target",
+    "type": "Charm",
+    "light": "Red",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "5",
+    "name": "Protego",
+    "incantation": "Protego",
+    "effect": "Creates a magical shield",
+    "type": "Charm",
+    "light": "Silver",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "6",
+    "name": "Rictusempra",
+    "incantation": "Rictusempra",
+    "effect": "Causes uncontrollable laughter",
+    "type": "Charm",
+    "light": "Pink",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "7",
+    "name": "Incendio",
+    "incantation": "Incendio",
+    "effect": "Starts a fire",
+    "type": "Charm",
+    "light": "Orange",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "8",
+    "name": "Obliviate",
+    "incantation": "Obliviate",
+    "effect": "Erases memories",
+    "type": "Charm",
+    "light": "Purple",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "9",
+    "name": "Wingardium Leviosa",
+    "incantation": "Wingardium Leviosa",
+    "effect": "Levitate objects",
+    "type": "Charm",
+    "light": "White",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "10",
+    "name": "Accio",
+    "incantation": "Accio",
+    "effect": "Summons objects",
+    "type": "Charm",
+    "light": "Blue",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "11",
+    "name": "Reducto",
+    "incantation": "Reducto",
+    "effect": "Breaks objects",
+    "type": "Charm",
+    "light": "Orange",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "12",
+    "name": "Crucio",
+    "incantation": "Crucio",
+    "effect": "Inflicts unbearable pain",
+    "type": "Curse",
+    "light": "Black",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "13",
+    "name": "Avada Kedavra",
+    "incantation": "Avada Kedavra",
+    "effect": "Causes instant death",
+    "type": "Curse",
+    "light": "Green",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "14",
+    "name": "Imperio",
+    "incantation": "Imperio",
+    "effect": "Controls the victim",
+    "type": "Curse",
+    "light": "Yellow",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "15",
+    "name": "Expecto Patronum",
+    "incantation": "Expecto Patronum",
+    "effect": "Conjures a Patronus",
+    "type": "Charm",
+    "light": "Silver",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "16",
+    "name": "Muffliato",
+    "incantation": "Muffliato",
+    "effect": "Fills ears with buzzing to avoid eavesdropping",
+    "type": "Charm",
+    "light": "Yellow",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "17",
+    "name": "Sectumsempra",
+    "incantation": "Sectumsempra",
+    "effect": "Causes deep cuts",
+    "type": "Dark Charm",
+    "light": "Red",
+    "creator": "Severus Snape",
+    "canBeVerbal": true
+  },
+  {
+    "id": "18",
+    "name": "Tarantallegra",
+    "incantation": "Tarantallegra",
+    "effect": "Makes victim's legs dance uncontrollably",
+    "type": "Charm",
+    "light": "Purple",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "19",
+    "name": "Confundo",
+    "incantation": "Confundo",
+    "effect": "Causes confusion",
+    "type": "Charm",
+    "light": "Blue",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "20",
+    "name": "Protego Horribilis",
+    "incantation": "Protego Horribilis",
+    "effect": "Protects against dark magic",
+    "type": "Charm",
+    "light": "Blue",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "21",
+    "name": "Colloportus",
+    "incantation": "Colloportus",
+    "effect": "Magically locks doors",
+    "type": "Charm",
+    "light": "Orange",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "22",
+    "name": "Furnunculus",
+    "incantation": "Furnunculus",
+    "effect": "Causes boils to appear on skin",
+    "type": "Hex",
+    "light": "Red",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "23",
+    "name": "Langlock",
+    "incantation": "Langlock",
+    "effect": "Glue the target's tongue to the roof of the mouth",
+    "type": "Charm",
+    "light": "Purple",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "24",
+    "name": "Levicorpus",
+    "incantation": "Levicorpus",
+    "effect": "Hoists victim into the air by their ankle",
+    "type": "Charm",
+    "light": "Blue",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "25",
+    "name": "Obscuro",
+    "incantation": "Obscuro",
+    "effect": "Blindfolds target",
+    "type": "Charm",
+    "light": "Black",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "26",
+    "name": "Petrificus Totalus",
+    "incantation": "Petrificus Totalus",
+    "effect": "Full body paralysis",
+    "type": "Charm",
+    "light": "Blue",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "27",
+    "name": "Portus",
+    "incantation": "Portus",
+    "effect": "Turns objects into Portkeys",
+    "type": "Charm",
+    "light": "Silver",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "28",
+    "name": "Prior Incantato",
+    "incantation": "Prior Incantato",
+    "effect": "Reveals last spell cast by a wand",
+    "type": "Charm",
+    "light": "White",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "29",
+    "name": "Protego Maxima",
+    "incantation": "Protego Maxima",
+    "effect": "Powerful protective shield",
+    "type": "Charm",
+    "light": "Blue",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "30",
+    "name": "Reducto",
+    "incantation": "Reducto",
+    "effect": "Blasts solid objects",
+    "type": "Charm",
+    "light": "Red",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "31",
+    "name": "Relashio",
+    "incantation": "Relashio",
+    "effect": "Forces victims to release their grip",
+    "type": "Charm",
+    "light": "Orange",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "32",
+    "name": "Rennervate",
+    "incantation": "Rennervate",
+    "effect": "Revives stunned or unconscious person",
+    "type": "Charm",
+    "light": "White",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "33",
+    "name": "Salvio Hexia",
+    "incantation": "Salvio Hexia",
+    "effect": "Protects against hexes",
+    "type": "Charm",
+    "light": "Blue",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "34",
+    "name": "Scourgify",
+    "incantation": "Scourgify",
+    "effect": "Cleans objects",
+    "type": "Charm",
+    "light": "Blue",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "35",
+    "name": "Serpensortia",
+    "incantation": "Serpensortia",
+    "effect": "Conjures a serpent",
+    "type": "Charm",
+    "light": "Green",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "36",
+    "name": "Silencio",
+    "incantation": "Silencio",
+    "effect": "Silences target",
+    "type": "Charm",
+    "light": "Purple",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "37",
+    "name": "Sonorus",
+    "incantation": "Sonorus",
+    "effect": "Amplifies voice",
+    "type": "Charm",
+    "light": "Yellow",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "38",
+    "name": "Tarantallegra",
+    "incantation": "Tarantallegra",
+    "effect": "Forces target to dance",
+    "type": "Charm",
+    "light": "Purple",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "39",
+    "name": "Waddiwasi",
+    "incantation": "Waddiwasi",
+    "effect": "Shoots small objects at high speed",
+    "type": "Charm",
+    "light": "Blue",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "40",
+    "name": "Wingardium Leviosa",
+    "incantation": "Wingardium Leviosa",
+    "effect": "Levitate objects",
+    "type": "Charm",
+    "light": "White",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+
+  {
+    "id": "41",
+    "name": "Arresto Momentum",
+    "incantation": "Arresto Momentum",
+    "effect": "Slows down motion",
+    "type": "Charm",
+    "light": "Blue",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "42",
+    "name": "Cistem Aperio",
+    "incantation": "Cistem Aperio",
+    "effect": "Opens chests and containers",
+    "type": "Charm",
+    "light": "Yellow",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "43",
+    "name": "Colovaria",
+    "incantation": "Colovaria",
+    "effect": "Changes color of objects",
+    "type": "Charm",
+    "light": "Pink",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "44",
+    "name": "Deletrius",
+    "incantation": "Deletrius",
+    "effect": "Erases the last spell effect",
+    "type": "Charm",
+    "light": "White",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "45",
+    "name": "Densaugeo",
+    "incantation": "Densaugeo",
+    "effect": "Causes teeth to grow rapidly",
+    "type": "Hex",
+    "light": "Yellow",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "46",
+    "name": "Diffindo",
+    "incantation": "Diffindo",
+    "effect": "Cuts objects",
+    "type": "Charm",
+    "light": "Red",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "47",
+    "name": "Engorgio",
+    "incantation": "Engorgio",
+    "effect": "Enlarges objects",
+    "type": "Charm",
+    "light": "Blue",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "48",
+    "name": "Episkey",
+    "incantation": "Episkey",
+    "effect": "Heals minor injuries",
+    "type": "Charm",
+    "light": "White",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "49",
+    "name": "Everte Statum",
+    "incantation": "Everte Statum",
+    "effect": "Knocks back opponent",
+    "type": "Charm",
+    "light": "Red",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "50",
+    "name": "Ferula",
+    "incantation": "Ferula",
+    "effect": "Creates bandages",
+    "type": "Charm",
+    "light": "White",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "51",
+    "name": "Glacius",
+    "incantation": "Glacius",
+    "effect": "Freezes target",
+    "type": "Charm",
+    "light": "Blue",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "52",
+    "name": "Incendius Maxima",
+    "incantation": "Incendius Maxima",
+    "effect": "Creates a large fire",
+    "type": "Charm",
+    "light": "Orange",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "53",
+    "name": "Aeris",
+    "incantation": "Aeris",
+    "effect": "Summons wind gusts",
+    "type": "Charm",
+    "light": "White",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "54",
+    "name": "Tenebris",
+    "incantation": "Tenebris",
+    "effect": "Envelops area in darkness",
+    "type": "Dark Charm",
+    "light": "Black",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "55",
+    "name": "Volatus",
+    "incantation": "Volatus",
+    "effect": "Enables short-term flight",
+    "type": "Charm",
+    "light": "Silver",
+    "creator": "Unknown",
+    "canBeVerbal": false
+  },
+  {
+    "id": "56",
+    "name": "Igniverto",
+    "incantation": "Igniverto",
+    "effect": "Shoots fireballs",
+    "type": "Spell",
+    "light": "Red",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "57",
+    "name": "Aqua Eructo",
+    "incantation": "Aqua Eructo",
+    "effect": "Ejects water from wand",
+    "type": "Charm",
+    "light": "Blue",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "58",
+    "name": "Veritas",
+    "incantation": "Veritas",
+    "effect": "Forces honesty",
+    "type": "Spell",
+    "light": "Purple",
+    "creator": "Unknown",
+    "canBeVerbal": false
+  },
+  {
+    "id": "59",
+    "name": "Obscuritas",
+    "incantation": "Obscuritas",
+    "effect": "Blurs visibility",
+    "type": "Charm",
+    "light": "Grey",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "60",
+    "name": "Fumos",
+    "incantation": "Fumos",
+    "effect": "Creates smoke screen",
+    "type": "Charm",
+    "light": "Grey",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "61",
+    "name": "Repello Muggletum",
+    "incantation": "Repello Muggletum",
+    "effect": "Repels Muggles from area",
+    "type": "Ward",
+    "light": "Blue",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "62",
+    "name": "Caecus",
+    "incantation": "Caecus",
+    "effect": "Blinds opponent",
+    "type": "Hex",
+    "light": "Black",
+    "creator": "Unknown",
+    "canBeVerbal": false
+  },
+  {
+    "id": "63",
+    "name": "Vermiculus",
+    "incantation": "Vermiculus",
+    "effect": "Conjures worms",
+    "type": "Hex",
+    "light": "Brown",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "64",
+    "name": "Glacius Maxima",
+    "incantation": "Glacius Maxima",
+    "effect": "Freezes large area",
+    "type": "Charm",
+    "light": "White",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "65",
+    "name": "Lacarnum Inflamarae",
+    "incantation": "Lacarnum Inflamarae",
+    "effect": "Sets clothing on fire",
+    "type": "Jinx",
+    "light": "Orange",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "66",
+    "name": "Molliare",
+    "incantation": "Molliare",
+    "effect": "Softens landing",
+    "type": "Charm",
+    "light": "Pink",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "67",
+    "name": "Caligo",
+    "incantation": "Caligo",
+    "effect": "Creates fog",
+    "type": "Charm",
+    "light": "White",
+    "creator": "Unknown",
+    "canBeVerbal": false
+  },
+  {
+    "id": "68",
+    "name": "Revelio",
+    "incantation": "Revelio",
+    "effect": "Reveals hidden objects or magic",
+    "type": "Charm",
+    "light": "Blue",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "69",
+    "name": "Nox",
+    "incantation": "Nox",
+    "effect": "Extinguishes light from Lumos",
+    "type": "Charm",
+    "light": "Black",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "70",
+    "name": "Cave Inimicum",
+    "incantation": "Cave Inimicum",
+    "effect": "Alerts of enemies",
+    "type": "Ward",
+    "light": "Blue",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "71",
+    "name": "Geliditas",
+    "incantation": "Geliditas",
+    "effect": "Covers surface with ice",
+    "type": "Charm",
+    "light": "Blue",
+    "creator": "Unknown",
+    "canBeVerbal": false
+  },
+  {
+    "id": "72",
+    "name": "Crystallus",
+    "incantation": "Crystallus",
+    "effect": "Turns target to glass",
+    "type": "Hex",
+    "light": "Clear",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "73",
+    "name": "Thundera",
+    "incantation": "Thundera",
+    "effect": "Conjures thunderstorm",
+    "type": "Spell",
+    "light": "Dark Blue",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "74",
+    "name": "Aurora Lux",
+    "incantation": "Aurora Lux",
+    "effect": "Creates colorful light show",
+    "type": "Charm",
+    "light": "Multicolor",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "75",
+    "name": "Oscuro",
+    "incantation": "Oscuro",
+    "effect": "Cloaks in shadow",
+    "type": "Charm",
+    "light": "Black",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "76",
+    "name": "Sanguis",
+    "incantation": "Sanguis",
+    "effect": "Controls blood flow",
+    "type": "Dark Charm",
+    "light": "Red",
+    "creator": "Unknown",
+    "canBeVerbal": false
+  },
+  {
+    "id": "77",
+    "name": "Dissendium",
+    "incantation": "Dissendium",
+    "effect": "Opens secret passage",
+    "type": "Charm",
+    "light": "Yellow",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "78",
+    "name": "Fractura",
+    "incantation": "Fractura",
+    "effect": "Breaks bones",
+    "type": "Hex",
+    "light": "Orange",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "79",
+    "name": "Ossis Muto",
+    "incantation": "Ossis Muto",
+    "effect": "Alters bone structure",
+    "type": "Dark Charm",
+    "light": "Green",
+    "creator": "Unknown",
+    "canBeVerbal": false
+  },
+  {
+    "id": "80",
+    "name": "Fidelius",
+    "incantation": "Fidelius",
+    "effect": "Conceals a secret within a person",
+    "type": "Charm",
+    "light": "Blue",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "81",
+    "name": "Vermis",
+    "incantation": "Vermis",
+    "effect": "Summons insects",
+    "type": "Hex",
+    "light": "Brown",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "82",
+    "name": "Ignipho",
+    "incantation": "Ignipho",
+    "effect": "Sets floor ablaze",
+    "type": "Curse",
+    "light": "Red",
+    "creator": "Unknown",
+    "canBeVerbal": false
+  },
+  {
+    "id": "83",
+    "name": "Spongify",
+    "incantation": "Spongify",
+    "effect": "Softens a surface",
+    "type": "Charm",
+    "light": "Pink",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "84",
+    "name": "Quietus",
+    "incantation": "Quietus",
+    "effect": "Reverses Sonorus",
+    "type": "Charm",
+    "light": "Purple",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "85",
+    "name": "Impervius",
+    "incantation": "Impervius",
+    "effect": "Makes object repel water",
+    "type": "Charm",
+    "light": "Blue",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "86",
+    "name": "Ventus",
+    "incantation": "Ventus",
+    "effect": "Blasts air",
+    "type": "Charm",
+    "light": "White",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "87",
+    "name": "Locomotor",
+    "incantation": "Locomotor",
+    "effect": "Moves object in direction pointed",
+    "type": "Charm",
+    "light": "Blue",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "88",
+    "name": "Expulso",
+    "incantation": "Expulso",
+    "effect": "Causes explosion",
+    "type": "Spell",
+    "light": "Red",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "89",
+    "name": "Carpe Retractum",
+    "incantation": "Carpe Retractum",
+    "effect": "Pulls objects toward caster",
+    "type": "Charm",
+    "light": "Purple",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "90",
+    "name": "Colloshoo",
+    "incantation": "Colloshoo",
+    "effect": "Sticks shoes to floor",
+    "type": "Hex",
+    "light": "Grey",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "91",
+    "name": "Ebullio",
+    "incantation": "Ebullio",
+    "effect": "Boils liquid instantly",
+    "type": "Charm",
+    "light": "Orange",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "92",
+    "name": "Obfirmo",
+    "incantation": "Obfirmo",
+    "effect": "Reinforces object",
+    "type": "Charm",
+    "light": "Silver",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "93",
+    "name": "Frigidus",
+    "incantation": "Frigidus",
+    "effect": "Chills air around target",
+    "type": "Charm",
+    "light": "Blue",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "94",
+    "name": "Clamorus",
+    "incantation": "Clamorus",
+    "effect": "Creates loud noise",
+    "type": "Jinx",
+    "light": "Yellow",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "95",
+    "name": "Lumorae",
+    "incantation": "Lumorae",
+    "effect": "Creates dazzling light burst",
+    "type": "Charm",
+    "light": "White",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "96",
+    "name": "Umbra",
+    "incantation": "Umbra",
+    "effect": "Casts shadow over target",
+    "type": "Charm",
+    "light": "Dark Grey",
+    "creator": "Unknown",
+    "canBeVerbal": false
+  },
+  {
+    "id": "97",
+    "name": "Detego",
+    "incantation": "Detego",
+    "effect": "Reveals invisible objects",
+    "type": "Charm",
+    "light": "Blue",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "98",
+    "name": "Translumia",
+    "incantation": "Translumia",
+    "effect": "Makes target transparent",
+    "type": "Charm",
+    "light": "Clear",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "99",
+    "name": "Sopor",
+    "incantation": "Sopor",
+    "effect": "Induces sleep",
+    "type": "Charm",
+    "light": "Purple",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  },
+  {
+    "id": "100",
+    "name": "Silentia",
+    "incantation": "Silentia",
+    "effect": "Mutes all sound in area",
+    "type": "Charm",
+    "light": "Grey",
+    "creator": "Unknown",
+    "canBeVerbal": true
+  }
+]
