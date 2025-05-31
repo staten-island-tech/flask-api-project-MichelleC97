@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+""" from flask import Flask, render_template
 import requests
 
 app = Flask(__name__)
@@ -63,4 +63,56 @@ def pokemon_detail(id):
     })
 
 if __name__ == '__main__':
+    app.run(debug=True) """
+
+
+
+""" from flask import Flask, render_template, json
+
+app = Flask(__name__)
+
+with open("spells.json") as f:
+    spell_data = json.load(f)
+
+@app.route("/")
+def index():
+    return render_template("index.html", spells=spell_data)
+
+@app.route("/spell/<id>")
+def spell_detail(id):
+    spell = next((s for s in spell_data if s["id"] == id), None)
+    if spell is None:
+        return "Spell not found", 404
+    return render_template("spell.html", spell=spell)
+
+if __name__ == "__main__":
+    app.run(debug=True) """
+
+from flask import Flask, render_template, json
+import os
+
+app = Flask(__name__)
+
+@app.route("/")
+def index():
+    try:
+        with open("spells.json") as f:
+            spell_data = json.load(f)
+    except Exception as e:
+        return f"Error reading JSON: {e}"
+    return render_template("index.html", spells=spell_data)
+
+@app.route("/spell/<id>")
+def spell_detail(id):
+    try:
+        with open("spells.json") as f:
+            spell_data = json.load(f)
+        spell = next((s for s in spell_data if s["id"] == id), None)
+        if not spell:
+            return "Spell not found", 404
+    except Exception as e:
+        return f"Error reading spell: {e}"
+    return render_template("spell.html", spell=spell)
+
+if __name__ == "__main__":
     app.run(debug=True)
