@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>{{ spell.name }}</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
 </head>
 <body>
-  <div class="container pokemon-detail">
+    <div class="container pokemon-detail">
     <h1>{{ spell.name }}</h1>
     <p><strong>Incantation:</strong> {{ spell.incantation }}</p>
     <p><strong>Effect:</strong> {{ spell.effect }}</p>
@@ -14,6 +14,20 @@
     <p><strong>Light:</strong> {{ spell.light }}</p>
     <p><strong>Creator:</strong> {{ spell.creator }}</p>
     <p><strong>Can Be Verbal:</strong> {{ "Yes" if spell.canBeVerbal else "No" }}</p>
+  </div>
+
+    <a href="/" style="
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #f0c844;
+        color: #6103a4;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 8px;
+        box-shadow: 0 0 10px #00fbff;">
+      ← Back to Home
+    </a>
   </div>
 </body>
 </html>
