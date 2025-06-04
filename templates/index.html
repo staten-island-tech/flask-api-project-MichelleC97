@@ -24,13 +24,12 @@
   <a href="{{ url_for('spell_detail', id=spell.id) }}" class="card-link">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">{{ spell.name }}</h5>     <!-- spell name -->
-        <p class="card-text">Type: {{ spell.type }}</p>  <!-- spell type -->
+        <h5 class="card-title">{{ spell.name }}</h5>
+        <p class="card-text">Type: {{ spell.type }}</p>
       </div>
     </div>
   </a>
 {% endfor %}
-
     </div>
   </div>
 </body>

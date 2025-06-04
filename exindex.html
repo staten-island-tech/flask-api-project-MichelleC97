@@ -27,25 +27,59 @@
   </body>
 </html>
 
-[
-  {
-    "id": "1",
-    "name": "Alohomora",
-    "incantation": "Alohomora",
-    "effect": "Opens locked objects",
-    "canBeVerbal": true,
-    "type": "Charm",
-    "light": "Blue",
-    "creator": "Unknown"
-  },
-  {
-    "id": "2",
-    "name": "Avada Kedavra",
-    "incantation": "Avada Kedavra",
-    "effect": "Causes instant death",
-    "canBeVerbal": true,
-    "type": "Curse",
-    "light": "Green",
-    "creator": "Dark Wizards"
-  }
-]
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Wizard Spells</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <div class="container">
+    <h1>Wizard Spells</h1>
+    <div class="card-container">
+      {% for spell in spells %}
+  <a href="{{ url_for('spell_detail', id=spell.id) }}" class="card-link">
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Magic_Wand_icon.png" alt="Magic" style="width:100px; height:auto;">
+
+      <div class="card-body">
+        <h5 class="card-title">{{ spell.name }}</h5>     <!-- spell name -->
+        <p class="card-text">Type: {{ spell.type }}</p>  <!-- spell type -->
+      </div>
+    </div>
+  </a>
+{% endfor %}
+
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ spell.name }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container pokemon-detail">
+    <h1>{{ spell.name }}</h1>
+    <p><strong>Incantation:</strong> {{ spell.incantation }}</p>
+    <p><strong>Effect:</strong> {{ spell.effect }}</p>
+    <p><strong>Type:</strong> {{ spell.type }}</p>
+    <p><strong>Light:</strong> {{ spell.light }}</p>
+    <p><strong>Creator:</strong> {{ spell.creator }}</p>
+    <p><strong>Can Be Verbal:</strong> {{ "Yes" if spell.canBeVerbal else "No" }}</p>
+  </div>
+</body>
+</html>
